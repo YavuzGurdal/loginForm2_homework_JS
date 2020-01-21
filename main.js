@@ -135,7 +135,7 @@
                 document.body.addEventListener("load", set_change());
 
                 function set_change() {
-                    setInterval(changeFunc, 150);
+                    setInterval(changeFunc, 1500);
                 }
 
                 function changeFunc () {
