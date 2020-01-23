@@ -42,6 +42,8 @@
 
             document.getElementById("form1").appendChild(inputUserName);
             document.getElementById("input1").focus();
+                
+            document.getElementById('input1').autocomplete = 'off';
 
 
             // creating <input> element password
